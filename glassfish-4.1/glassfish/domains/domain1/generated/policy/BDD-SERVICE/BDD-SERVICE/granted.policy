@@ -1,0 +1,35 @@
+/* AUTOMATICALLY GENERATED ON Tue Jul 28 10:19:04 COT 2015*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionService", "countLocalizacion,Local,";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteService", "countEstudiante,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "ProfesorService", "removeProfesor,Remote,epn.jpa.entity.Profesor";
+  permission javax.security.jacc.EJBMethodPermission "ProfesorService", "countProfesor,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteService", "editEstudiante,Remote,epn.jpa.entity.Estudiante";
+  permission javax.security.jacc.EJBMethodPermission "ProfesorService", "editProfesor,Remote,epn.jpa.entity.Profesor";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteService", "findRangeEstudiante,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionService", "removeLocalizacion,Local,epn.jpa.entity.Localizacion";
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionService", "findAllLocalizacion,Local,";
+  permission javax.security.jacc.EJBMethodPermission "NewSessionBean", "businessMethod,Local,";
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionService", "createLocalizacion,Local,epn.jpa.entity.Localizacion";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteService", "findAllEstudiante,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteService", "findEstudianteById,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "ProfesorService", "findProfesorById,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "ProfesorService", "findAllProfesor,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionService", "findLocalizacionById,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteService", "removeEstudiante,Remote,epn.jpa.entity.Estudiante";
+  permission javax.security.jacc.EJBMethodPermission "ProfesorService", "findRangeProfesor,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteService", "createEstudiante,Remote,epn.jpa.entity.Estudiante";
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionService", "editLocalizacion,Local,epn.jpa.entity.Localizacion";
+  permission javax.security.jacc.EJBMethodPermission "ProfesorService", "createProfesor,Remote,epn.jpa.entity.Profesor";
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionService", "findRangeLocalizacion,Local,int[]";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "ProfesorService", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "NewSessionBean", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "EstudianteService", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "LocalizacionService", "**";
+};
+

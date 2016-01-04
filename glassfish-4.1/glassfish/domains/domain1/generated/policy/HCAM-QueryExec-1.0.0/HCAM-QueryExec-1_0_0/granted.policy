@@ -1,0 +1,21 @@
+/* AUTOMATICALLY GENERATED ON Mon Nov 16 12:31:08 COT 2015*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "QueryExec", "executeQueryInsert,Local,java.lang.String,java.util.Map";
+  permission javax.security.jacc.EJBMethodPermission "QueryExec", "executeQuery,Remote,java.lang.String,java.util.Map,java.lang.Class";
+  permission javax.security.jacc.EJBMethodPermission "QueryExec1", "executeQueryUpdate2,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "QueryExec", "executeQueryInsert,Remote,java.lang.String,java.util.Map";
+  permission javax.security.jacc.EJBMethodPermission "QueryExec", "executeQueryUpdate,Local,java.lang.String,java.util.Map";
+  permission javax.security.jacc.EJBMethodPermission "QueryExec", "executeQuery,Local,java.lang.String,java.util.Map,java.lang.Class";
+  permission javax.security.jacc.EJBMethodPermission "QueryExec1", "executeQueryUpdate1,Remote,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "QueryExec1", "executeQueryUpdate1,Local,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "QueryExec1", "executeQueryUpdate2,Remote,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "QueryExec", "executeQueryUpdate,Remote,java.lang.String,java.util.Map";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "QueryExec1", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "QueryExec", "**";
+};
+

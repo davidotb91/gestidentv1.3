@@ -1,0 +1,14 @@
+com\ec\ejb\PacienteFacade.class
+com\ec\ejb\DoctorFacade.class
+com\ec\ejb\CitaFacadeLocal.class
+com\ec\ejb\DoctorFacadeLocal.class
+com\ec\entity\Cita.class
+com\ec\ejb\AbstractFacade.class
+com\ec\entity\Doctor_.class
+com\ec\entity\Paciente.class
+com\ec\ejb\CitaFacade.class
+com\ec\entity\Doctor.class
+com\ec\ejb\PacienteFacadeLocal.class
+com\ec\entity\Cita_.class
+com\ec\entity\Paciente_.class
+controller\pacienteController.class

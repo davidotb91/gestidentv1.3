@@ -1,0 +1,33 @@
+/* AUTOMATICALLY GENERATED ON Sat Jan 02 17:15:26 COT 2016*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "AdministradorFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "PacienteFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "PacienteFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "DoctorFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "DoctorFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "PacienteFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "AdministradorFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "PacienteFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "PacienteFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "AdministradorFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "AdministradorFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "DoctorFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "DoctorFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "DoctorFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "PacienteFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "AdministradorFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "AdministradorFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "DoctorFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "PacienteFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "DoctorFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "AdministradorFacade", "create,Local,java.lang.Object";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "PacienteFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "AdministradorFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "DoctorFacade", "**";
+};
+

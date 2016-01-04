@@ -1,0 +1,51 @@
+/* AUTOMATICALLY GENERATED ON Tue Jul 28 10:19:02 COT 2015*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "ProfesorFacade", "count,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionFacade", "count,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "ProfesorFacade", "remove,Remote,epn.jpa.entity.Profesor";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteFacade", "edit,Remote,epn.jpa.entity.Estudiante";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteFacade", "findAll,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionFacade", "create,Remote,epn.jpa.entity.Localizacion";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteFacade", "create,Remote,epn.jpa.entity.Estudiante";
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionFacade", "findAll,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "InstrumentoFacade", "find,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "ProfesorFacade", "edit,Remote,epn.jpa.entity.Profesor";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteFacade", "findRange,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionFacade", "findRange,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "InscripcionFacade", "create,Remote,epn.jpa.entity.Inscripcion";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteFacade", "count,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteFacade", "find,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "InscripcionFacade", "remove,Remote,epn.jpa.entity.Inscripcion";
+  permission javax.security.jacc.EJBMethodPermission "InscripcionFacade", "edit,Remote,epn.jpa.entity.Inscripcion";
+  permission javax.security.jacc.EJBMethodPermission "InscripcionFacade", "count,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionFacade", "find,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionFacade", "edit,Remote,epn.jpa.entity.Localizacion";
+  permission javax.security.jacc.EJBMethodPermission "InstrumentoFacade", "count,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "InscripcionFacade", "findAll,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "InscripcionFacade", "find,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "InstrumentoFacade", "edit,Remote,epn.jpa.entity.Instrumento";
+  permission javax.security.jacc.EJBMethodPermission "InstrumentoFacade", "findAll,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "ProfesorFacade", "create,Remote,epn.jpa.entity.Profesor";
+  permission javax.security.jacc.EJBMethodPermission "NewSessionBean", "businessMethod,Local,";
+  permission javax.security.jacc.EJBMethodPermission "EstudianteFacade", "remove,Remote,epn.jpa.entity.Estudiante";
+  permission javax.security.jacc.EJBMethodPermission "InscripcionFacade", "findRange,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "InstrumentoFacade", "remove,Remote,epn.jpa.entity.Instrumento";
+  permission javax.security.jacc.EJBMethodPermission "ProfesorFacade", "findAll,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "LocalizacionFacade", "remove,Remote,epn.jpa.entity.Localizacion";
+  permission javax.security.jacc.EJBMethodPermission "ProfesorFacade", "find,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "ProfesorFacade", "findRange,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "InstrumentoFacade", "findRange,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "InstrumentoFacade", "create,Remote,epn.jpa.entity.Instrumento";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "InstrumentoFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "NewSessionBean", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "LocalizacionFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "ProfesorFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "InscripcionFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "EstudianteFacade", "**";
+};
+
